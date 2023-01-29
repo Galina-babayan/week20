@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="welcome">
+        <div class="welcome__container container">
+          <!-- <h1 class="welcome__title">Welcome to the Marvel universe!</h1> -->
+        </div>
+      </div>
+      <div class="image__background">
+        <!-- <img src="./assets/images/imagesMain/school1.jpg" alt=""> -->
+      </div>
+
+      <div class="marvel">
+        <div class="marvel__container container">
+          <div class="marvel__title">Супергерои</div>
+          <div class="marvel__body">
+            <template class="icon" id="tmpl">
+              <svg class="marvel__icon">
+                <use xlink:href="./images/sprite.svg#star2"></use>
+              </svg>
+            </template>
+
+            <!-- <div class="marvel__column">
+              <article class="marvel-item marvel-item_f">
+                <div class="marvel-item__image">
+                  <img src="./images/The Batman.jpg" alt="" />
+                </div>
+                <p class="marvel-item__name">Имя</p>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <form class="marvel__star">
+                  <label for="rating"
+                    ><input
+                      type="radio"
+                      value="1"
+                      class="marvel__total"
+                      name="rating"
+                      id="rating"
+                    /><template class="icon" id="tmpl">
+                      <svg class="marvel__icon">
+                        <use xlink:href="./images/sprite.svg#star2"></use>
+                      </svg>
+                    </template>
+
+                    <!-- <img class="marvel__icon" src="./images/star2.svg" alt="" /> -->
+            <!-- </label>
+                  <label for="rating"
+                    ><input
+                      type="radio"
+                      value="2"
+                      class="marvel__total"
+                      name="rating"
+                      id="rating"
+                    />
+                    <svg class="marvel__icon">
+                      <use xlink:href="./images/sprite.svg#star2"></use>
+                    </svg>
+                  </label>
+                  <label for="rating"
+                    ><input
+                      type="radio"
+                      value="3"
+                      class="marvel__total"
+                      name="rating"
+                      id="rating"
+                    />
+                    <svg class="marvel__icon">
+                      <use xlink:href="./images/sprite.svg#star2"></use>
+                    </svg>
+                  </label>
+                  <label for="rating"
+                    ><input
+                      type="radio"
+                      value="4"
+                      class="marvel__total"
+                      name="rating"
+                      id="rating"
+                    />
+                    <svg class="marvel__icon">
+                      <use xlink:href="./images/sprite.svg#star2"></use>
+                    </svg>
+                  </label>
+                  <label for="rating"
+                    ><input
+                      type="radio"
+                      value="5"
+                      class="marvel__total"
+                      name="rating"
+                      id="rating"
+                    />
+                    <svg class="marvel__icon">
+                      <use xlink:href="./images/sprite.svg#star2"></use>
+                    </svg>
+                  </label>
+                </form>
+                <div class="marvel__vote">
+                  <label class="marvel__label" for="vote"></label>
+                  <input
+                    class="marvel__result"
+                    type="text"
+                    name="vote"
+                    id="vote"
+                    placeholder="Оцени героя: от 1 до 10"
+                  />
+                </div>
+                <div class="marvel-item__buttons">
+                  <div class="marvel-item__button marvel-item__button_beige">
+                    Голосуй
+                  </div>
+                  <div class="marvel__mark">5</div>
+                </div>
+              </article>
+            </div> -->
+            -->
+
+            <!-- <div class="marvel__column">
+              <article class="marvel-item marvel-item_s">
+                <p class="marvel-item__name">Имя</p>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel__vote">
+                  <label class="marvel__label" for="vote"></label>
+                  <input
+                    class="marvel__result"
+                    type="text"
+                    name="vote"
+                    id="name"
+                    placeholder="Оцени героя: от 1 до 10"
+                  />
+                </div>
+                <div class="marvel-item__buttons">
+                  <div class="marvel-item__button marvel-item__button_yellow">
+                    Голосуй
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="marvel__column">
+              <article class="marvel-item marvel-item_t">
+                <p class="marvel-item__name">Имя</p>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel__vote">
+                  <label class="marvel__label" for="vote"></label>
+                  <input
+                    class="marvel__result"
+                    type="text"
+                    name="vote"
+                    id="name"
+                    placeholder="Оцени героя: от 1 до 10"
+                  />
+                </div>
+                <div class="marvel-item__buttons">
+                  <div
+                    href=""
+                    class="marvel-item__button marvel-item__button_green"
+                  >
+                    Подробнее
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="marvel__column marvel__column_four">
+              <article class="marvel-item marvel-item_four">
+                <p class="marvel-item__name">Имя</p>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel__vote">
+                  <label class="marvel__label" for="vote"></label>
+                  <input
+                    class="marvel__result"
+                    type="text"
+                    name="vote"
+                    id="vote"
+                    placeholder="Оцени героя: от 1 до 10"
+                  />
+                </div>
+                <div class="marvel-item__buttons">
+                  <div
+                    href=""
+                    class="marvel-item__button marvel-item__button_blue"
+                  >
+                    Подробнее
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="marvel__column marvel__column_five">
+              <article class="marvel-item marvel-item_five">
+                <p class="marvel-item__name">Имя</p>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel-item__period">Сентябрь-май</div>
+                <div class="marvel__vote">
+                  <label class="marvel__label" for="vote"></label>
+                  <input
+                    class="marvel__result"
+                    type="text"
+                    name="vote"
+                    id="name"
+                    placeholder="Оцени героя: от 1 до 10"
+                  />
+                </div>
+                <div class="marvel-item__buttons">
+                  <div
+                    href=""
+                    class="marvel-item__button marvel-item__button_red"
+                  >
+                    Подробнее
+                  </div>
+                </div>
+              </article>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
